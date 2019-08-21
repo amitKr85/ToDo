@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <!-- strings for priority -->
+    <string name="do_if_possible">Do If Possible</string>
+    <string name="should_do">Should Do</string>
+    <string name="normal">Normal</string>
+    <string name="important">Important</string>
+    <string name="very_important">Very Important</string>
+
+    <!-- strings for main menu -->
+    <string name="delete_all">Delete All Task</string>
+    <string name="insert_dummy">Insert Dummy Task</string>
+
+    <!-- strings for input alert dialog -->
+    <string name="add_a_task">Add a Task</string>
+    <string name="add_task">add task</string>
+    <string name="cancel">cancel</string>
+    <string name="task">Task</string>
+    <string name="priority">Priority</string>
+    <string name="choose_priority">Choose Priority</string>
+
+    <!-- array for priority spinner -->
+    <string-array name="priority_array">
+        <item>@string/very_important</item>
+        <item>@string/important</item>
+        <item>@string/normal</item>
+        <item>@string/should_do</item>
+        <item>@string/do_if_possible</item>
+    </string-array>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a Task</string>
+
+</resources>
